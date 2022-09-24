@@ -1,0 +1,19 @@
+# pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+# pip install openmim
+# mim install mmcv-full
+# mim install mmdet
+# mim install mmsegmentation
+# git clone https://github.com/open-mmlab/mmdetection3d.git
+# cd mmdetection3d
+# pip install -e .
+
+# cd BEVDepth
+# export CUDA_HOME=/usr/local/cuda-xx.x/
+# python setup.py develop
+
+#link to the data
+# ln -s /home/xwchi/opendataset/v1.0-mini.tar ./data/
+
+#link to the dataloader devkit
+# export PYTHONPATH="${PYTHONPATH}:$[folder to duscenes]/nuscenes-devkit/python-sdk"
